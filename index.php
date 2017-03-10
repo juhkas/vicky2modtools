@@ -1,5 +1,5 @@
 <?php
-if(isset($_GET['end']) && !empty($_GET['date'])) {
+if(isset($_GET['end']) && !empty($_GET['end'])) {
 	$end_date = $_GET['end'];
 } else {
 	$end_date = "6000.1.1";
